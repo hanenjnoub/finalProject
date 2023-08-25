@@ -1,0 +1,9 @@
+.doc-container {
+	
+	display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 20px;
+  background-color: #e6f2ff;
+  }
+  

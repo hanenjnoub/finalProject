@@ -1,0 +1,87 @@
+/* authentication pages */
+
+
+.bodpy{
+ 
+   background-size:150%; 
+  background-repeat: no-repeat;
+
+ 
+}
+
+.auth-form{
+    width: 400px;
+}
+button {
+    --c:  #229091; /* the color*/
+    
+    box-shadow: 0 0 0 .1em inset var(--c); 
+    --_g: linear-gradient(var(--c) 0 0) no-repeat;
+    background: 
+      var(--_g) calc(var(--_p,0%) - 100%) 0%,
+      var(--_g) calc(200% - var(--_p,0%)) 0%,
+      var(--_g) calc(var(--_p,0%) - 100%) 100%,
+      var(--_g) calc(200% - var(--_p,0%)) 100%;
+    background-size:50% calc(var(--_p,0%)/2 + .5%);
+    outline-offset: .1em;
+    transition: background-size .4s, background-position 0s .4s;
+  }
+  button:hover {
+    --_p: 100%;
+    transition: background-position .4s, background-size 0s;
+  }
+  button:active {
+    box-shadow: 0 0 9e9q inset #0009; 
+    background-color: var(--c);
+    color: #fff;
+  }
+  
+  
+  
+  
+  button {
+    font-family: system-ui, sans-serif;
+    font-size: 2rem;
+    cursor: pointer;
+    padding: .1em .6em;
+    font-weight: bold;  
+    border: none;
+  }
+  
+.hero-container {
+	
+	display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 20px;
+  
+  
+  }
+  .main-container {
+    width: 400px;
+    height: 600px;
+    background-color: rgb(47, 47, 47);
+    }
+  
+  .ticket-container {
+    
+    text-align: center;
+    align-items: center;
+    border-radius: 10px;
+    border: 2px solid;
+     }
+  
+   .ticket-container {
+  
+    opacity: 1;
+    background-color: rgb(248, 248, 246);
+  }
+  .cover-imagde{
+  background-color: beige;
+     border-radius: 20px; 
+     border: 2px solid;
+    width: 350px;
+    height: 300px;
+    
+    }
+  

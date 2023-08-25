@@ -1,0 +1,27 @@
+
+  h1,
+  h2,
+  h3
+  {
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 200;
+   
+  }
+  .avatar {
+    border-radius: 50%;
+  }
+  
+ .profil{
+    border-radius: 50%; 
+    float: right;
+    padding-bottom: 0px;
+ }
+  
+ 
+  
+  .text-important {
+    color: #48524d;
+    font-size: 30px;
+  }
+  
+ 
